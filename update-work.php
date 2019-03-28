@@ -1,9 +1,9 @@
 <?php 
 
-    // This Statement requires the following 2 files
+    // include the config file that we created last week
     require "config.php";
     require "common.php";
-
+    $message = "Work Has Been Updated";
 
     // run when submit button is clicked
     if (isset($_POST['submit'])) {
@@ -115,5 +115,11 @@
     <input type="submit" name="submit" value="Update" class="btn btn-primary">
 
 </form>
+<?php
+if($_POST == true){
+    echo "<script type='text/javascript'>alert('$message'); </script>";
+
+}
+?>
 
 <?php include "templates/footer.php"; ?>
