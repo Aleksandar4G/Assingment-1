@@ -1,6 +1,6 @@
 <?php 
 
-    // include the config file that we created last week
+    // This statemnt requires the following 2 files for the update
     require "config.php";
     require "common.php";
     $message = "Work Has Been Updated";
@@ -84,7 +84,6 @@
 <?php include "templates/header.php"; ?>
 
 <?php if (isset($_POST['submit']) && $statement) : ?>
-	<p>Work Successfully Has Been Updated.</p>
 <?php endif; ?>
 
 <h2>Edit a work</h2>
