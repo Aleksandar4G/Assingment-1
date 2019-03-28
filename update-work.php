@@ -1,6 +1,6 @@
 <?php 
 
-    // include the config file that we created last week
+    // This Statement requires the following 2 files
     require "config.php";
     require "common.php";
 
